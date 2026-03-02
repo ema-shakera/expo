@@ -532,6 +532,9 @@ PODS:
   - ExpoRouter (55.0.2):
     - ExpoModulesCore
     - RNScreens
+  - ExpoRouter/Tests (55.0.2):
+    - ExpoModulesCore
+    - RNScreens
   - ExpoScreenCapture (55.0.8):
     - ExpoModulesCore
   - ExpoScreenOrientation (55.0.8):
@@ -3234,6 +3237,7 @@ DEPENDENCIES:
   - ExpoNotifications/Tests (from `../../../packages/expo-notifications/ios`)
   - ExpoPrint (from `../../../packages/expo-print/ios`)
   - ExpoRouter (from `../../../packages/expo-router/ios`)
+  - ExpoRouter/Tests (from `../../../packages/expo-router/ios`)
   - ExpoScreenCapture (from `../../../packages/expo-screen-capture/ios`)
   - ExpoScreenOrientation (from `../../../packages/expo-screen-orientation/ios`)
   - ExpoSecureStore (from `../../../packages/expo-secure-store/ios`)
@@ -3867,7 +3871,7 @@ SPEC CHECKSUMS:
   ExpoNetwork: 018e4e16afdaff30c5002fadf64daab55bc20de0
   ExpoNotifications: 0293112699b35aa26f6e9e1fcecee0323f3187dc
   ExpoPrint: 744a2ca8033698b749389290d96f4ec836027aed
-  ExpoRouter: 98f1ec6dfbde5edb827aa411681c1fcbee07786f
+  ExpoRouter: d770a57784f2cf06d0d5496913857ab79727dc99
   ExpoScreenCapture: a4b2159b48fd2514a99f426778da31d1f0a9736f
   ExpoScreenOrientation: e042b7f121c3b3463f9486189785d568ff57739e
   ExpoSecureStore: 7837b892a89ad8d28b64d9302b657e8b6ebae250
@@ -3908,7 +3912,7 @@ SPEC CHECKSUMS:
   React: 7ef36630d07638043a134a7dd2ec17e0be10fc3c
   React-callinvoker: af4e8fe1d60ab63dd8d74c2a68988064c2848954
   React-Core: c0fb1df65eb0ed7a8633841831f05f93c3eb3aff
-  React-Core-prebuilt: 8d3b8ca928d5ec4acbd02a85ad31693483710ca8
+  React-Core-prebuilt: 318f50bcfcd5077fed58fc3a492a16a636428072
   React-CoreModules: 7dfe7962360355f1547c85ab52e1fc4b57f17127
   React-cxxreact: 9e9c7f1710bc58abebf924813b5e825b99adb8e5
   React-debug: 38389b86e3570558ec73dd4cbc0cd2f2eec47a51
@@ -3998,6 +4002,6 @@ SPEC CHECKSUMS:
   Yoga: 772166513f9cd2d61a6251d0dacbbfaa5b537479
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
 
-PODFILE CHECKSUM: 959ff3ceba069d66085a5fedbacd3eaad747ac5b
+PODFILE CHECKSUM: f4254d30b3ed97b1dae30893bb660d699a1f7485
 
 COCOAPODS: 1.16.2
